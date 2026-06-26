@@ -1,0 +1,308 @@
+/* ==========================================
+   CUSTOMER CHURN PREDICTION DASHBOARD
+   Professional UI
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
+    min-height:100vh;
+
+    color:white;
+
+    padding:40px;
+
+}
+
+/* Container */
+
+.container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+/* Heading */
+
+h1{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+    color:#ffffff;
+
+    letter-spacing:1px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#d7e8ff;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+
+}
+
+/* Grid */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+}
+
+/* Cards */
+
+.card{
+
+    background:rgba(255,255,255,0.12);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.45);
+
+}
+
+.card h2{
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+    color:#ffd54f;
+
+}
+
+/* Labels */
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:6px;
+
+    font-weight:bold;
+
+}
+
+/* Inputs */
+
+input,select{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    margin-bottom:8px;
+
+}
+
+/* Focus Effect */
+
+input:focus,
+select:focus{
+
+    box-shadow:0 0 10px #00e5ff;
+
+}
+
+/* Button */
+
+.center{
+
+    text-align:center;
+
+    margin-top:35px;
+
+}
+
+button{
+
+    background:#00c853;
+
+    color:white;
+
+    border:none;
+
+    padding:16px 40px;
+
+    border-radius:30px;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:bold;
+
+}
+
+button:hover{
+
+    background:#00e676;
+
+    transform:scale(1.05);
+
+}
+
+/* Result Card */
+
+.result{
+
+    margin-top:40px;
+
+    background:white;
+
+    color:#333;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+.result h2{
+
+    color:#0d47a1;
+
+    margin-bottom:15px;
+
+}
+
+.result h3{
+
+    margin:10px;
+
+}
+
+/* Graph Section */
+
+.graphs{
+
+    margin-top:50px;
+
+}
+
+.graphs h2{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    color:#ffeb3b;
+
+}
+
+/* Images */
+
+.graphs img{
+
+    width:100%;
+
+    background:white;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    padding:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.4);
+
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#4fc3f7;
+
+    border-radius:20px;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.grid{
+
+grid-template-columns:1fr;
+
+}
+
+body{
+
+padding:20px;
+
+}
+
+h1{
+
+font-size:32px;
+
+}
+
+button{
+
+width:100%;
+
+}
+
+}
